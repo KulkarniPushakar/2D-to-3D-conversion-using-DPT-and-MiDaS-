@@ -21,4 +21,11 @@
 5. Export for Blender**: Save results as `.PLY` / `.OBJ` for visualization and further editing.
 
 
+## 🔧 Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+
+
 
