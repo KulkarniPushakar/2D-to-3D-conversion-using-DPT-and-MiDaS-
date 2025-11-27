@@ -32,12 +32,10 @@ Superior mesh consistency using Laplacian-guided depth optimization
 Smooth conversion of single-view 2D diagrams into Blender-ready 3D models
 Efficient point cloud processing using Farthest Point Sampling (FPS)
 
+
+## Research and Work
 The research validates the complete 2D-to-3D pipeline used in this repository and highlights its suitability for educational content creation, VR/AR assets, robotics, and interactive visualization.
 
-<p align="center"> <img src="436c475c-79bd-4756-b166-a59204175a69.png" alt="Depth Map Optimization Pipeline" width="320"> </p>
-<img width="286" height="351" alt="image" src="https://github.com/user-attachments/assets/c74c2688-98e1-4883-aa00-a7f4fa99a10f" />
-
-Fig. 2. Depth Map Optimization Pipeline
 
 This diagram illustrates the core refinement stages applied to the raw depth map. The process begins with Laplacian Fusion, which enhances structural detail and edge sharpness. The refined map is then used for Mesh Creation, resulting in a clean and structurally consistent OBJ 3D model ready for visualization and editing in Blender or other 3D tools.
 
