@@ -24,6 +24,12 @@
 
 This project is supported by our research work titled “Edu3D: From Diagrams to Interactive 3D Models”, which presents an optimized pipeline combining monocular depth estimation, Laplacian fusion, bilateral filtering, geometric segmentation, and hybrid Poisson + Ball Pivoting surface reconstruction.
 
+<p align="center">
+    <img src="images/depth-map.png" alt="Depth Map Optimization Pipeline" width="320">
+</p>
+
+This diagram illustrates the core refinement stages applied to the raw depth map. The process begins with Laplacian Fusion, which enhances structural detail and edge sharpness. The refined map is then used for Mesh Creation, resulting in a clean and structurally consistent OBJ 3D model ready for visualization and editing in Blender or other 3D tools.
+
 ### Our study demonstrates:
 
 22.2% improvement in Mean Edge Strength (MES)
@@ -33,11 +39,7 @@ Smooth conversion of single-view 2D diagrams into Blender-ready 3D models
 Efficient point cloud processing using Farthest Point Sampling (FPS)
 
 
-## Research and Work
-The research validates the complete 2D-to-3D pipeline used in this repository and highlights its suitability for educational content creation, VR/AR assets, robotics, and interactive visualization.
 
-
-This diagram illustrates the core refinement stages applied to the raw depth map. The process begins with Laplacian Fusion, which enhances structural detail and edge sharpness. The refined map is then used for Mesh Creation, resulting in a clean and structurally consistent OBJ 3D model ready for visualization and editing in Blender or other 3D tools.
 
 ## 🔧 Install Dependencies
 
