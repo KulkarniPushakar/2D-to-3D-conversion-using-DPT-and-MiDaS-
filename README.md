@@ -20,6 +20,20 @@
 4. Mesh Generation**: Use Poisson and Ball Pivoting reconstruction to generate watertight meshes.
 5. Export for Blender**: Save results as `.PLY` / `.OBJ` for visualization and further editing.
 
+## 📄 Research Paper & Technical Documentation
+
+This project is supported by our research work titled “Edu3D: From Diagrams to Interactive 3D Models”, which presents an optimized pipeline combining monocular depth estimation, Laplacian fusion, bilateral filtering, geometric segmentation, and hybrid Poisson + Ball Pivoting surface reconstruction.
+
+# Our study demonstrates:
+
+22.2% improvement in Mean Edge Strength (MES)
+Higher Shannon Entropy, indicating better structural detail
+Superior mesh consistency using Laplacian-guided depth optimization
+Smooth conversion of single-view 2D diagrams into Blender-ready 3D models
+Efficient point cloud processing using Farthest Point Sampling (FPS)
+
+The research validates the complete 2D-to-3D pipeline used in this repository and highlights its suitability for educational content creation, VR/AR assets, robotics, and interactive visualization.
+
 
 ## 🔧 Install Dependencies
 
